@@ -1,0 +1,8 @@
+.ember-view.masonry-grid {
+    border: 1px solid #AAA;
+    background-color: #DDD;
+}
+
+.ember-view.masonry-item {
+    background-color: #BBBBFF;
+}
