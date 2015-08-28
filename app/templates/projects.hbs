@@ -1,0 +1,9 @@
+<h2>Projects: {{model.name}}</h2>
+
+<h3>Links</h3>
+{{#link-to "projects" "first"}}projects/first{{/link-to}}
+<br/>
+{{#link-to "projects" "second"}}projects/second{{/link-to}}
+
+{{masonry-grid items=model.items}}
+
